@@ -257,7 +257,7 @@ def gen_doc(data: dict, dark_theme: bool=False) -> str:
                 <div style="height: 2em;">
                 </div>
                 <div>
-                    @ 2023 Jinyi Xia.
+                    @ 2024 Jinyi Xia.
                     <br>
                     Powered by <a href="https://getbootstrap.com/" class="text-secondary"><i class="bi bi-bootstrap-fill"></i> Bootstrap</a> & <a href="https://github.com/" class="text-secondary"><i class="bi bi-github"></i> GitHub</a>.
                     <br>
