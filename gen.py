@@ -15,6 +15,7 @@ def gen_edu(data: list[dict]) -> str:
     <div>
         {item["Degree"]} of {item["Major"]} in {item["Discipline"]}
     </div>
+    {f"<div>Supervisor: {item['Supervisor']}</div>" if item.get('Supervisor') else ''}
 </div>
     ''' for item in data)
 
